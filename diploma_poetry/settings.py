@@ -18,7 +18,7 @@ ROBOTSTXT_OBEY = False
 # FEED_URI = '%(name)s.csv'
 # FEED_FORMAT = 'csv'
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 48
+CONCURRENT_REQUESTS = 64
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay

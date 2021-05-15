@@ -21,7 +21,7 @@ class DictSpider(CrawlSpider):
     s2 = [0, 102, 106, 139, 103, 19, 109, 69, 21, 38, 130, 0, 59, 9, 15, 123, 75, 105, 128, 113, 220, 111, 145,
           104, 75, 75, 63, 49, 54, 66, 26, 0, 17, 32]
     start_urls = []
-    for i in range(33, 34):
+    for i in range(1, 34):
         for page in range(1, s2[i]):
             start_urls.append(os.path.join(root_url, f"index.php?s1={i}&s2={page}"))
 
